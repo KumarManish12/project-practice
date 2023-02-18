@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">project practice constraint+relative layout</string>
+    <string name="features">Features</string>
+    <string name="cable">Cable</string>
+    <string name="extrator">Extrator</string>
+    <string name="offline">Offline</string>
+    <string name="recall">Recall</string>
+    <string name="contact">Contact</string>
+</resources>

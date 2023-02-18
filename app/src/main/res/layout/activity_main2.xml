@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/creamwhite"
+    tools:context=".MainActivity2">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/cvmain1"
+        android:elevation="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Main 1"
+        android:textSize="50sp"
+        />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/cvmain1"
+        android:layout_marginStart="20dp"
+        android:id="@+id/cvmain2"
+        android:elevation="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true">
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Main 2"
+        android:textSize="30sp"
+        android:layout_below="@+id/cvmain"
+        android:layout_alignParentStart="true"
+        />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/cvmain1"
+        android:id="@+id/cvmain3"
+        android:layout_marginTop="40dp"
+        android:elevation="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"
+        >
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Main 3"
+        android:textSize="30sp"
+        android:layout_below="@+id/cvmain"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"
+        />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/cvmain2"
+        android:layout_marginTop="20dp"
+        android:id="@+id/cvmain4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:elevation="40dp"
+        >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="Main 4"
+            android:textSize="30sp"
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/cvmain4"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:elevation="40dp"
+        >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="Main 6"
+            android:textSize="30sp"
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/cvmain3"
+        android:layout_marginTop="20dp"
+        android:id="@+id/cvmain5"
+        android:elevation="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="Main 5"
+            android:textSize="30sp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/cvmain5"
+        android:layout_marginTop="20dp"
+        android:id="@+id/cvmain7"
+        android:elevation="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="Main 7"
+            android:textSize="30sp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</RelativeLayout>
